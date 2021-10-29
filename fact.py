@@ -1,4 +1,5 @@
-num = 7
+import os
+num = os.getenv("num")
 #num = int(input("Enter a number: "))
 
 factorial = 1
