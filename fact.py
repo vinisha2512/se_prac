@@ -1,4 +1,4 @@
-num = %num%
+num = $num
 
 #num = int(input("Enter a number: "))
 
