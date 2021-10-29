@@ -1,15 +1,14 @@
-num = "$num"
-print(num)
+num = 7
 #num = int(input("Enter a number: "))
 
-# factorial = 1
+factorial = 1
 
-# if num < 0:
-#    print("Sorry, factorial does not exist for negative numbers")
-# elif num == 0:
-#    print("The factorial of 0 is 1")
-# else:
-#    for i in range(1,num + 1):
-#        factorial = factorial*i
+if num < 0:
+   print("Sorry, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   for i in range(1,num + 1):
+       factorial = factorial*i
        
-#    print("The factorial of",num,"is",factorial)
+   print("The factorial of",num,"is",factorial)
