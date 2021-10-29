@@ -1,4 +1,4 @@
-num = 7
+num = %num%
 
 #num = int(input("Enter a number: "))
 
